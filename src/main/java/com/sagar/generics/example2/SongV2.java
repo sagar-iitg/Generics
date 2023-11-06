@@ -3,7 +3,7 @@ package com.sagar.generics.example2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SongV2 {
+public class SongV2 implements Comparable<SongV2>{
 
     private String title;
     private String artist;
@@ -31,6 +31,11 @@ public class SongV2 {
     @Override
     public String toString() {
         return title;
+    }
+
+    @Override
+    public int compareTo(SongV2 o) {
+        return this.title.compareTo(o.title);
     }
 }
 
