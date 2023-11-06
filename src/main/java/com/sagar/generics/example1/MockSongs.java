@@ -7,7 +7,7 @@ public class MockSongs {
 
     public static List<String> getSongStrings(){
 
-        List<String> songs=new ArrayList<>();
+        List<String> songs=new ArrayList<String>();
         songs.add("Chaleya");
         songs.add(" Dil Mein Chhupa Loonga");
         songs.add("Apna Bana Le. Sachin");
